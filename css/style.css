@@ -689,7 +689,18 @@ header{
  .help .section {
     padding: 8rem 0;
 }
-
+.help{
+    min-height: 100vh;
+    width: 100%;
+    
+}
+.help-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .card{
     position: relative;
     margin: 10px 20px;
@@ -698,7 +709,7 @@ header{
 
 .card-header .label{
     position: relative;
-    padding: 10px;
+    padding: 10px 50px;
     background-color: var(--primary-color);
     color: #FFF;
     cursor: pointer;
@@ -732,7 +743,7 @@ header{
 }
 .help .section-header{
     max-width: 600px;
-    margin: 0 1.5rem;
+    margin: 4rem 0 1.5rem 1.5rem;
 }
 .help .title {
     position: relative;
